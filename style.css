@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+
+}
+.hero{
+    min-height: 90vh;
+    background-image: url('./pexels-junior-teixeira-2047905.jpg');
+    background-size: cover;
+    background-position: center;
+    color: linen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ;
+}
+
+.hero h2{
+    text-align: center;
+    margin: 2rem;
+
+}
+.intro{
+    display: flex;
+}
+
+.intro img{
+    height: 20rem;
+    flex: 1 1 10rem;
+}
+
+.intro-text{
+    flex: 1 1 10rem;
+}
